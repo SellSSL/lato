@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <title>Lato</title>
     <link rel="stylesheet" href="./css/lato.min.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
     <style>
-        body { font-family: 'Lato'; background-color: #ececec; color: #3d3d3d; }
+        body { font-family: 'Lato'; background-color: #ececec; color: #3d3d3d; margin: 0; }
 
         .container { width: 80%; margin: 0 auto; padding-top: 10px; padding-bottom: 50px; }
         .center { display: block; text-align: center; }
         .size-4x { font-size: 400%; }
+
+        small { font-size: 50%; }
+        .title small { color: #919191; font-weight: normal; }
 
         .wrapper { padding: 10px; border: 1px solid #8f8f8f; border-radius: 15px; background-color: #ededed; margin-top: 20px; }
 
@@ -19,16 +23,20 @@
     </style>
 </head>
 <body>
+    <a href="https://github.com/krisanalfa/lato-font"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
     <article class="container">
-        <h1 class="center size-4x">Lato Font</h1>
+
+        <div class="title">
+            <h1 class="center size-4x">Lato Font <small>When details matter</small></h1>
+        </div>
 
         <div class="wrapper">
-            <h1>h1 Heading #1 <small>Sub - Heading</small></h1>
-            <h2>h2 Heading #2 <small>Sub - Heading</small></h2>
-            <h3>h3 Heading #3 <small>Sub - Heading</small></h3>
-            <h4>h4 Heading #4 <small>Sub - Heading</small></h4>
-            <h5>h5 Heading #5 <small>Sub - Heading</small></h5>
-            <h6>h6 Heading #6 <small>Sub - Heading</small></h6>
+            <h1>{h1} Heading #1 <small>Sub - Heading</small></h1>
+            <h2>{h2} Heading #2 <small>Sub - Heading</small></h2>
+            <h3>{h3} Heading #3 <small>Sub - Heading</small></h3>
+            <h4>{h4} Heading #4 <small>Sub - Heading</small></h4>
+            <h5>{h5} Heading #5 <small>Sub - Heading</small></h5>
+            <h6>{h6} Heading #6 <small>Sub - Heading</small></h6>
         </div>
 
         <div class="wrapper">
