@@ -1,10 +1,3 @@
-body {
-    font-smooth: always;
-    transform: rotate(-0.0000000001deg);
-    -webkit-font-smoothing: subpixel-antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-shadow: 0 0 1px rgba(0,0,0,0.3);
-}
 @font-face {
     font-family: 'Lato';
     src: url(../fonts/lato/lato-black.eot);
